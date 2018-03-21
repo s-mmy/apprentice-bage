@@ -1,0 +1,78 @@
+<html>
+<head>
+<title></title>
+<style>
+html,body {
+  margin: 0;
+  padding: 0;
+}
+h1{
+  margin:0;
+}
+header{
+  color: rgb(0, 0, 0,); 
+  background-color:rgb(191, 128, 255);
+  text-align: center;
+}
+footer{
+  background-color: rgb(132, 215, 228);
+  padding: 3px;
+  text-align: center;
+  color: white;
+  clear: both;
+}
+aside{
+  background-color:#B0BEC5;
+  width: 20%;
+  
+</style>
+</head>
+<body>
+<header>
+  <h1>Kiticorn</h1>
+  </header>
+  <aside>
+		<img src="https://lh3.googleusercontent.com/-90Rx-IoNX1Y/Wq1FJuC0YPI/AAAAAAAABKU/liASaf8eXsMrW7DvHQcNY8n6ILqzOq-JwCL0BGAYYCw/h1280/77b672ae-3dd5-4d83-a03e-db56f86c6081"<img src="" width="150px"/>
+
+		<div>Hi, one of my favorite things to do is CODE!!!!</div> 
+		<div> I live in Utah, I love  my little brother even when he's annoying. I  
+      love all my family. I love science and coding. I also love cows and 
+      pegasus!!!</div>
+		<div> Part of the reason I code is because it brings me joy!! 
+      I enjoy codeing because it challenges me and its fun.  </div>
+		<span><img src="https://greatlakesgazette.files.wordpress.com/2010/01/cow_0775.jpg" width="100px" /></span>
+		<span><img src="https://i.skyrock.net/7752/73777752/pics/2899181149_small_1.jpg"width="90px"/></span>
+	<div>So I love cows,but I also love pegasus!! If you put them 
+    together it make a Mooasus. I know I've said this a lot but.... 
+    love coding, it's entertaining,fun, and you get to create and 
+    be youself. I will try to keep you posted on every thing
+ (Bunnasus,Kiticorn,Wolfasus, Pandagon)</div>
+	</aside>
+  <main>
+  <div> <select id="moo">
+   <option>Mooasus</option>
+   <option>Moonicorn</option>
+   <option>Kiticorn</option>
+    <option>Wolfasus</option>
+    <option>Pandagon</option>
+    <option>Bunnasus</option>
+		</select> </div> 
+    <img src=https://t00.deviantart.net/ghxUc6UX_sKn0G39p9eKjqnjs00=/fit-in/700x350/filters:fixed_height(100,100):origin()/pre00/6631/th/pre/i/2010/189/f/d/kiticorn_by_blackgryph0n.jpg width="200px"/>
+    <div> Hi, this is a KITICORN. Now  before I get started with this part you can go look at the rest of the mythical creatures like Wolfasus,bunnasus,and all the other ones.Now for the good stuff!!!</div>
+    <div> I have some exsplaining to do now a Kiticorn is a breed of a kitty (kit) and a unicorn (icorn) whitch make a KITICORN.They  are fantastict, amazing, wounderful, and so much more. They can make magical kitty stuff. They can also purr because they're part kitty. They also are a very rude some times they can bite, but they are nice most of the time.</div>
+    <div> <img src="https://lh3.googleusercontent.com/-mOYGE0w8N5Y/WkVRyzOUWyI/AAAAAAAAAr4/PyiD4rNQcfcIPxf--aGRl6ZT1OYbhFYogCL0BGAYYCw/h1408/a5f6cc34-ecb5-48c2-bfae-c4215982be44" width="200px"/> </div>
+		Now my friend has a sign but I have no picture for an exsample. It has a little kitty
+face and a rainbow horn. I enjoy doing these little symbols for the charactors. It makes every thing special. My Friend like her mythical creature, she helped me design it. I don't really know what to add...... oh ya you can also call this mythical creature a CATICORN. For when the animal gets older.
+   
+</main>
+<footer> S-Sue </footer>
+  
+  
+<script>
+document.querySelector("#moo").addEventListener("change", function(event){
+  document.querySelector('#theme').classList.add(event.target.value)
+})
+  
+</script>
+</body>
+</html>
