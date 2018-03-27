@@ -71,6 +71,7 @@ face and a rainbow horn. I enjoy doing these little symbols for the charactors. 
 <script>
 document.querySelector("#moo").addEventListener("change", function(event){
   document.querySelector('#theme').classList.add(event.target.value)
+
 })
   
 </script>
