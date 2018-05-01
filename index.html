@@ -61,7 +61,7 @@ main{
 	</aside>
   <main>
   <div> <select id="moo">
-   <option>Mooasus</option>
+   <option value="index">Mooasus</option>
    <option>Moonicorn</option>
    <option>Kiticorn</option>
     <option>Wolfasus</option>
@@ -80,6 +80,7 @@ main{
 <script>
 
 document.querySelector("#moo").addEventListener("change", function(event){
+	console.log(event.target.value)
 	window.location = "http://s-mmy.github.io/apprentice-bage/" + event.target.value
 })
   
